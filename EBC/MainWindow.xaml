@@ -1,0 +1,22 @@
+﻿<Window x:Name="Alvino_s_EBC" x:Class="EBC.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EBC"
+        mc:Ignorable="d"
+        Title="Alvino's EBC" Height="350" Width="525" Topmost="True">
+    <Grid>
+        <Grid>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="120"/>
+            <GroupBox Header="Effective Adjustments" HorizontalAlignment="Left" Height="97" Margin="146,10,0,0" VerticalAlignment="Top" Width="165" AutomationProperties.Name="Effective Adjustments">
+                <RadioButton Content="3rd Year Statue" Margin="10,10,34,46" Checked="RadioButton_Checked" IsChecked="True"/>
+            </GroupBox>
+            <ComboBox HorizontalAlignment="Left" Margin="155,65,0,0" VerticalAlignment="Top" Width="69" SelectionChanged="ComboBox_SelectionChanged"/>
+            <ComboBox HorizontalAlignment="Left" Margin="229,65,0,0" VerticalAlignment="Top" Width="69"/>
+            <GroupBox Header="Fortitude Adjustments" HorizontalAlignment="Left" Height="119" Margin="146,112,0,0" VerticalAlignment="Top" Width="165"/>
+            <Button Content="Calculate" HorizontalAlignment="Left" Margin="432,288,0,0" VerticalAlignment="Top" Width="75"/>
+        </Grid>
+
+    </Grid>
+</Window>
