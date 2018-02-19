@@ -13,20 +13,6 @@
             <TabControl Margin="137,8,10.143,11">
                 <TabItem Header="Buildings" UseLayoutRounding="True" FontFamily="Arial">
                     <Grid Background="#FFE5E5E5">
-                        <GroupBox Header="Hero Hall" HorizontalAlignment="Left" Height="80" Margin="207,10,0,0" VerticalAlignment="Top" Width="167" FontWeight="Bold">
-                            <Grid Margin="6,-6,-11.857,-1.857">
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="101,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="3,31,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="52,31,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                            </Grid>
-                        </GroupBox>
                         <GroupBox Header="Main Buildings" HorizontalAlignment="Left" Height="163" Margin="10,10,0,0" VerticalAlignment="Top" Width="192" FontWeight="Bold" FontSize="14">
                             <Grid Margin="6,-6,-11.857,-1.857">
                                 <TextBox HorizontalAlignment="Left" Height="8" Margin="107,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
@@ -41,40 +27,52 @@
                                 <TextBlock HorizontalAlignment="Left" Margin="37,109,0,0" TextWrapping="Wrap" Text="Bastion" VerticalAlignment="Top" Width="65" TextAlignment="Right" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
                             </Grid>
                         </GroupBox>
-                        <GroupBox Header="Gold Mine" HorizontalAlignment="Left" Height="101" Margin="10,178,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
+                        <GroupBox Header="Gold Mine" HorizontalAlignment="Left" Height="117" Margin="222,108,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
                             <Grid Margin="6,-6,-11.857,-1.857">
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="107,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="156,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,30,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="167,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBlock HorizontalAlignment="Left" Margin="3,30,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="52,30,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="107,31,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="156,31,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBlock HorizontalAlignment="Left" Margin="3,52,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="167,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                <TextBlock HorizontalAlignment="Left" Margin="0,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="104,35,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="153,35,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" RenderTransformOrigin="0.609,1.382" />
+                                <TextBlock HorizontalAlignment="Left" Margin="0,62,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
                             </Grid>
                         </GroupBox>
-                        <GroupBox Header="Gold Vault" HorizontalAlignment="Left" Height="79" Margin="238,178,0,0" VerticalAlignment="Top" Width="167" FontWeight="Bold">
+                        <GroupBox Header="Hero Hall" HorizontalAlignment="Left" Height="84" Margin="222,10,0,0" VerticalAlignment="Top" Width="167" FontWeight="Bold">
                             <Grid Margin="6,-6,-11.857,-1.857">
                                 <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
                                 <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
                                 <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                                <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="101,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="3,31,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBlock HorizontalAlignment="Left" Margin="52,31,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="98,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="0,36,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Gold Vault" HorizontalAlignment="Left" Height="84" Margin="10,190,0,0" VerticalAlignment="Top" Width="167" FontWeight="Bold">
+                            <Grid Margin="6,-6,-11.857,-1.857">
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="98,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                <TextBlock HorizontalAlignment="Left" Margin="0,36,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
                             </Grid>
                         </GroupBox>
                     </Grid>
@@ -89,7 +87,7 @@
                         <CheckBox Content="Dark Rider" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top" FontSize="16" MinHeight="20" Foreground="Black" Background="White" />
                         <CheckBox Content="Pounder" HorizontalAlignment="Left" Margin="218,146,0,0" VerticalAlignment="Top" FontSize="16" MinHeight="20" Foreground="Black" Background="White" />
                         <CheckBox Content="Sapphirix" HorizontalAlignment="Left" Margin="218,226,0,0" VerticalAlignment="Top" FontSize="16" MinHeight="20" Foreground="Black" Background="White" />
-                        <CheckBox Content="Wolvenfiend" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top" FontSize="16" MinHeight="20" Foreground="Black" Background="White" />
+                        <CheckBox Content="Wolvenfiend" HorizontalAlignment="Left" Margin="10,61,0,0" VerticalAlignment="Top" FontSize="16" MinHeight="20" Foreground="Black" Background="White" IsEnabled="False" />
                         <CheckBox Content="Hydrasaur" HorizontalAlignment="Left" Margin="10,226,0,0" VerticalAlignment="Top" FontSize="16" MinHeight="20" Foreground="Black" Background="White" />
                         <TextBox HorizontalAlignment="Left" Height="15" Margin="152,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" AutomationProperties.HelpText="Ermah Guard" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
                         <TextBox HorizontalAlignment="Left" Height="15" Margin="152,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" AutomationProperties.HelpText="Cannon" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
@@ -99,7 +97,7 @@
                         <TextBox HorizontalAlignment="Left" Height="15" Margin="152,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" AutomationProperties.HelpText="Town Hall" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
                         <TextBox HorizontalAlignment="Left" Height="15" Margin="348,146,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" AutomationProperties.HelpText="Mortar" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
                         <TextBox HorizontalAlignment="Left" Height="15" Margin="348,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" AutomationProperties.HelpText="Magic Tower" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
-                        <TextBox HorizontalAlignment="Left" Height="15" Margin="152,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" AutomationProperties.HelpText="Walls" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="152,61,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" AutomationProperties.HelpText="Walls" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" IsEnabled="False" />
                         <TextBox HorizontalAlignment="Left" Height="15" Margin="152,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" AutomationProperties.HelpText="Air Defense" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
                         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="2 - 3 Modifiers" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" MinHeight="20" Foreground="Black" />
                         <TextBlock HorizontalAlignment="Left" Margin="10,95,0,0" TextWrapping="Wrap" Text="4 - 5 Modifiers" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" MinHeight="20" Foreground="Black" />
@@ -110,9 +108,9 @@
                     <Grid Background="#FFE5E5E5">
                         <GroupBox Header="Building Modifiers" HorizontalAlignment="Left" Height="98" Margin="26,29,0,0" VerticalAlignment="Top" Width="200" FontWeight="Bold">
                             <Grid Margin="0,0,-11,1.143">
-                                <CheckBox Content="3rd Year Anniversary" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" Background="White" />
+                                <CheckBox Content="3rd Year Anniversary" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" Background="White" Checked="CheckBox_Checked" />
                                 <TextBlock HorizontalAlignment="Left" Margin="0,36,0,0" TextWrapping="Wrap" Text="Arena Rank:" VerticalAlignment="Top" Width="103" TextAlignment="Right" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="108,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="108,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
                             </Grid>
                         </GroupBox>
                         <GroupBox Header="Hero Modifiers" HorizontalAlignment="Left" Height="117" Margin="270,29,0,0" VerticalAlignment="Top" Width="231" FontWeight="Bold">
@@ -128,11 +126,180 @@
                     </Grid>
                 </TabItem>
                 <TabItem Header="Defenses" HorizontalAlignment="Left" VerticalAlignment="Top" UseLayoutRounding="True" Margin="-2,0,0,0" FontFamily="Arial" RenderTransformOrigin="-0.067,0.401">
-                    <Grid Background="#FFE5E5E5"/>
+                    <Grid Background="#FFE5E5E5">
+                        <TabControl>
+                            <TabItem Header="Main">
+                                <Grid Background="#FFE5E5E5">
+                                    <GroupBox Header="Ermah Guard" HorizontalAlignment="Left" Height="84" Margin="10,10,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
+                                        <Grid Margin="6,-6,-11.857,-1.857">
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,-0.143" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="118,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="167,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,36,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="104,36,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="153,35,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                        </Grid>
+                                    </GroupBox>
+                                    <GroupBox Header="Cannon" HorizontalAlignment="Left" Height="117" Margin="10,110,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
+                                        <Grid Margin="6,-6,-11.857,-1.857">
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="118,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="167,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="104,35,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="153,35,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" RenderTransformOrigin="0.609,1.382" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,62,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="75,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="52,62,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                        </Grid>
+                                    </GroupBox>
+                                    <GroupBox Header="Mortar" HorizontalAlignment="Left" Height="84" Margin="255,10,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
+                                        <Grid Margin="6,-6,-11.857,-1.857">
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" RenderTransformOrigin="0.584,0.707" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="118,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="104,35,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                        </Grid>
+                                    </GroupBox>
+                                    <GroupBox Header="Air Defense" HorizontalAlignment="Left" Height="84" Margin="255,110,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
+                                        <Grid Margin="6,-6,-11.857,-1.857">
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" RenderTransformOrigin="0.584,0.707" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBox HorizontalAlignment="Left" Height="16" Margin="118,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="0,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            <TextBlock HorizontalAlignment="Left" Margin="104,35,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                        </Grid>
+                                    </GroupBox>
+                                </Grid>
+                            </TabItem>
+                            <TabItem Header="Continued">
+                                <Grid Background="#FFE5E5E5">
+                                    <Grid>
+                                        <GroupBox Header="Victory Statue" HorizontalAlignment="Left" Height="84" Margin="10,10,0,0" VerticalAlignment="Top" Width="167" FontWeight="Bold">
+                                            <Grid Margin="6,-6,-11.857,-1.857">
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="98,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,36,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="98,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            </Grid>
+                                        </GroupBox>
+                                        <GroupBox Header="Reaper" HorizontalAlignment="Left" Height="84" Margin="259,110,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
+                                            <Grid Margin="6,-6,-11.857,-1.857">
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" RenderTransformOrigin="0.584,0.707" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="104,35,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            </Grid>
+                                        </GroupBox>
+                                        <GroupBox Header="Magic Tower" HorizontalAlignment="Left" Height="84" Margin="259,10,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
+                                            <Grid Margin="6,-6,-11.857,-1.857">
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" RenderTransformOrigin="0.584,0.707" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="104,35,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            </Grid>
+                                        </GroupBox>
+                                        <GroupBox Header="Sniper Tower" HorizontalAlignment="Left" Height="117" Margin="10,110,0,0" VerticalAlignment="Top" Width="223" FontWeight="Bold">
+                                            <Grid Margin="6,-6,-11.857,-1.857">
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="167,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="49,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="104,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="153,10,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="118,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="167,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,35,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="49,35,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="104,35,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="153,35,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" RenderTransformOrigin="0.609,1.382" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="0,62,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                                <TextBox HorizontalAlignment="Left" Height="16" Margin="75,62,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" Background="White" Foreground="DarkBlue" MaxLines="1" MinHeight="20" FontFamily="Times New Roman" MaxLength="2" />
+                                                <TextBlock HorizontalAlignment="Left" Margin="52,62,0,0" TextWrapping="Wrap" Text="10" VerticalAlignment="Top" FontWeight="Normal" FontSize="16" MinHeight="20" Foreground="Black" />
+                                            </Grid>
+                                        </GroupBox>
+                                    </Grid>
+                                </Grid>
+                            </TabItem>
+                        </TabControl>
+                    </Grid>
                 </TabItem>
                 <TabItem Header="Results" HorizontalAlignment="Left" VerticalAlignment="Top" UseLayoutRounding="True" Margin="-5,0,0,0" FontFamily="Arial">
                     <Grid Background="#FFE5E5E5">
-                        <Button Content="Calculate" Margin="238,209,0,0" HorizontalAlignment="Left" Width="78" Height="21" VerticalAlignment="Top"/>
+                        <Button Content="Calculate" Margin="238,209,0,0" HorizontalAlignment="Left" Width="78" Height="21" VerticalAlignment="Top" FontFamily="Palatino Linotype" FontSize="14" MinWidth="100" MinHeight="35"/>
                     </Grid>
                 </TabItem>
             </TabControl>
