@@ -5,17 +5,131 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EBC"
         mc:Ignorable="d"
-        Title="Alvino's EBC" Height="350" Width="525" Topmost="True">
+        Title="Alvino's EBC" Height="320.714" Width="502.786" Topmost="True">
     <Grid>
         <Grid>
-            <TextBox HorizontalAlignment="Left" Height="23" Margin="10,10,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="120"/>
-            <GroupBox Header="Effective Adjustments" HorizontalAlignment="Left" Height="97" Margin="146,10,0,0" VerticalAlignment="Top" Width="165" AutomationProperties.Name="Effective Adjustments">
-                <RadioButton Content="3rd Year Statue" Margin="10,10,34,46" Checked="RadioButton_Checked" IsChecked="True"/>
-            </GroupBox>
-            <ComboBox HorizontalAlignment="Left" Margin="155,65,0,0" VerticalAlignment="Top" Width="69" SelectionChanged="ComboBox_SelectionChanged"/>
-            <ComboBox HorizontalAlignment="Left" Margin="229,65,0,0" VerticalAlignment="Top" Width="69"/>
-            <GroupBox Header="Fortitude Adjustments" HorizontalAlignment="Left" Height="119" Margin="146,112,0,0" VerticalAlignment="Top" Width="165"/>
-            <Button Content="Calculate" HorizontalAlignment="Left" Margin="432,288,0,0" VerticalAlignment="Top" Width="75"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="10,8,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Width="120"/>
+            <TabControl Margin="137,8,10.143,11">
+                <TabItem Header="Buildings" UseLayoutRounding="True">
+                    <Grid Background="#FFE5E5E5">
+                        <GroupBox Header="Hero Hall" HorizontalAlignment="Left" Height="70" Margin="10,146,0,0" VerticalAlignment="Top" Width="165">
+                            <Grid Margin="6,-6,-11.857,-1.857">
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="101,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,31,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="52,31,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Main Buildings" HorizontalAlignment="Left" Height="131" Margin="10,10,0,0" VerticalAlignment="Top" Width="149">
+                            <Grid Margin="6,-6,-11.857,-1.857">
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Town Hall" VerticalAlignment="Top" Width="65" TextAlignment="Right"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Sanctum" VerticalAlignment="Top" Width="65" TextAlignment="Right"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,52,0,0" TextWrapping="Wrap" Text="Alchemy" VerticalAlignment="Top" Width="65" TextAlignment="Right"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="0,73,0,0" TextWrapping="Wrap" Text="Ancient Relic" VerticalAlignment="Top" Width="75" TextAlignment="Right"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" Text="Bastion" VerticalAlignment="Top" Width="65" TextAlignment="Right"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Gold Vault" HorizontalAlignment="Left" Height="130" Margin="180,85,0,0" VerticalAlignment="Top" Width="115">
+                            <Grid Margin="6,-6,-11.857,-1.857">
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,31,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="52,31,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,52,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="52,52,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,73,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="52,73,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,94,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top"/>
+                            </Grid>
+                        </GroupBox>
+                        <GroupBox Header="Gold Mine" HorizontalAlignment="Left" Height="70" Margin="164,10,0,0" VerticalAlignment="Top" Width="165">
+                            <Grid Margin="6,-6,-11.857,-1.857">
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="101,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="3,31,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top"/>
+                                <TextBlock HorizontalAlignment="Left" Margin="52,31,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top"/>
+                            </Grid>
+                        </GroupBox>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Heroes" UseLayoutRounding="True">
+                    <Grid Background="#FFE5E5E5">
+                        <CheckBox Content="Blitz Bomber" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Demon Slayer" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Renee Ven" HorizontalAlignment="Left" Margin="10,79,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Arctic Lord" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Pan Goli" HorizontalAlignment="Left" Margin="10,119,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Dark Rider" HorizontalAlignment="Left" Margin="10,139,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Pounder" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Sapphirix" HorizontalAlignment="Left" Margin="10,179,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Wolvenfiend" HorizontalAlignment="Left" Margin="10,199,0,0" VerticalAlignment="Top"/>
+                        <CheckBox Content="Hydrasaur" HorizontalAlignment="Left" Margin="10,219,0,0" VerticalAlignment="Top"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Fortitudes on Base" VerticalAlignment="Top" FontWeight="Bold"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,100,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBox HorizontalAlignment="Left" Height="15" Margin="140,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="140,10,0,0" TextWrapping="Wrap" Text="Rank" VerticalAlignment="Top" FontWeight="Bold"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Statues" HorizontalAlignment="Left" VerticalAlignment="Top" UseLayoutRounding="True">
+                    <Grid Background="#FFE5E5E5">
+                        <TextBlock HorizontalAlignment="Left" Margin="10,86,0,0" TextWrapping="Wrap" Text="Continent Rank:" VerticalAlignment="Top" Width="103" TextAlignment="Right"/>
+                        <TextBox HorizontalAlignment="Left" Height="16" Margin="118,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+                        <GroupBox Header="Anniversary" HorizontalAlignment="Left" Height="64" Margin="10,10,0,0" VerticalAlignment="Top" Width="165">
+                            <Grid Margin="0,0,-11,1.143">
+                                <CheckBox Content="3rd Year Anniversary" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+                            </Grid>
+                        </GroupBox>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,107,0,0" TextWrapping="Wrap" Text="Battle Royale Rank:" VerticalAlignment="Top" Width="103" TextAlignment="Right"/>
+                        <TextBox HorizontalAlignment="Left" Height="16" Margin="118,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,128,0,0" TextWrapping="Wrap" Text="Arena Rank:" VerticalAlignment="Top" Width="103" TextAlignment="Right"/>
+                        <TextBox HorizontalAlignment="Left" Height="16" Margin="118,128,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+                        <TextBlock HorizontalAlignment="Left" Margin="10,149,0,0" TextWrapping="Wrap" Text="Hero Trials Rank:" VerticalAlignment="Top" Width="103" TextAlignment="Right"/>
+                        <TextBox HorizontalAlignment="Left" Height="16" Margin="118,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="57"/>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Defenses" HorizontalAlignment="Left" VerticalAlignment="Top" UseLayoutRounding="True">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="Results" HorizontalAlignment="Left" VerticalAlignment="Top" UseLayoutRounding="True">
+                    <Grid Background="#FFE5E5E5">
+                        <Button Content="Calculate" Margin="255,214,0,0" HorizontalAlignment="Left" Width="78" Height="21" VerticalAlignment="Top"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
         </Grid>
 
     </Grid>

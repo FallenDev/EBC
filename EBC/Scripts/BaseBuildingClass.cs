@@ -41,8 +41,8 @@ namespace EBC
         private int _arena = 7500;
 
         public string Name { get; set; }
-        private int Level { get; set; }
-        private float Armor { get; set; }
+        public int Level { get; set; }
+        public float Armor { get; set; }
         public float TownHall { get; set; }
         public float Sanctum { get; set; }
         public float HeroHall { get; set; }
