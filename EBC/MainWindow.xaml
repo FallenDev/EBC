@@ -14,11 +14,11 @@
                     <Grid Background="#FFE5E5E5">
                         <GroupBox Header="Hero Hall" HorizontalAlignment="Left" Height="70" Margin="10,146,0,0" VerticalAlignment="Top" Width="165">
                             <Grid Margin="6,-6,-11.857,-1.857">
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
                                 <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="101,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
@@ -28,11 +28,11 @@
                         </GroupBox>
                         <GroupBox Header="Main Buildings" HorizontalAlignment="Left" Height="131" Margin="10,10,0,0" VerticalAlignment="Top" Width="149">
                             <Grid Margin="6,-6,-11.857,-1.857">
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="80,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
                                 <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Town Hall" VerticalAlignment="Top" Width="65" TextAlignment="Right"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="10,31,0,0" TextWrapping="Wrap" Text="Sanctum" VerticalAlignment="Top" Width="65" TextAlignment="Right"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="10,52,0,0" TextWrapping="Wrap" Text="Alchemy" VerticalAlignment="Top" Width="65" TextAlignment="Right"/>
@@ -42,33 +42,33 @@
                         </GroupBox>
                         <GroupBox Header="Gold Vault" HorizontalAlignment="Left" Height="130" Margin="180,85,0,0" VerticalAlignment="Top" Width="115">
                             <Grid Margin="6,-6,-11.857,-1.857">
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
                                 <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="3,31,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="52,31,0,0" TextWrapping="Wrap" Text="4" VerticalAlignment="Top"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,53,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
                                 <TextBlock HorizontalAlignment="Left" Margin="3,52,0,0" TextWrapping="Wrap" Text="5" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="52,52,0,0" TextWrapping="Wrap" Text="6" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="3,73,0,0" TextWrapping="Wrap" Text="7" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="52,73,0,0" TextWrapping="Wrap" Text="8" VerticalAlignment="Top"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
                                 <TextBlock HorizontalAlignment="Left" Margin="3,94,0,0" TextWrapping="Wrap" Text="9" VerticalAlignment="Top"/>
                             </Grid>
                         </GroupBox>
                         <GroupBox Header="Gold Mine" HorizontalAlignment="Left" Height="70" Margin="164,10,0,0" VerticalAlignment="Top" Width="165">
                             <Grid Margin="6,-6,-11.857,-1.857">
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
-                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" TextChanged="TextBox_TextChanged"/>
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="112,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="14,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
+                                <TextBox HorizontalAlignment="Left" Height="16" Margin="63,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="33" />
                                 <TextBlock HorizontalAlignment="Left" Margin="3,10,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="52,10,0,0" TextWrapping="Wrap" Text="2" VerticalAlignment="Top"/>
                                 <TextBlock HorizontalAlignment="Left" Margin="101,10,0,0" TextWrapping="Wrap" Text="3" VerticalAlignment="Top"/>
