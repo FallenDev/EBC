@@ -10,11 +10,11 @@ namespace EBC.Scripts
 {
     public class ReadFromExcel : BaseBuildingClass
     {
-        public static void getExcelFile()
+        public static void GetExcelFile()
         {
-            //Create COM Objects. Create a COM object for everything that is referenced
+            // Create COM Objects
             Excel.Application xlApp = new Excel.Application();
-            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(@"C:\Users\E56626\Desktop\Teddy\VS2012\Sandbox\sandbox_test - Copy - Copy.xlsx");
+            Excel.Workbook xlWorkbook = xlApp.Workbooks.Open(@"C:\BuildingHP.xlsx");
             Excel._Worksheet xlWorksheet = xlWorkbook.Sheets[1];
             Excel.Range xlRange = xlWorksheet.UsedRange;
 
@@ -37,23 +37,19 @@ namespace EBC.Scripts
                 }
             }
 
-            //cleanup
+            // Here is where you'd want to write your import to DB.
+
+            // Cleanup COM Objects
             GC.Collect();
             GC.WaitForPendingFinalizers();
 
-            //rule of thumb for releasing com objects:
-            //  never use two dots, all COM objects must be referenced and released individually
-            //  ex: [somthing].[something].[something] is bad
-
-            //release com objects to fully kill excel process from running in the background
             Marshal.ReleaseComObject(xlRange);
             Marshal.ReleaseComObject(xlWorksheet);
-
-            //close and release
+            
             xlWorkbook.Close();
             Marshal.ReleaseComObject(xlWorkbook);
 
-            //quit and release
+            // Quit & Release
             xlApp.Quit();
             Marshal.ReleaseComObject(xlApp);
         }       

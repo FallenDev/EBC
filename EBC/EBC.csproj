@@ -82,6 +82,7 @@
     </ApplicationDefinition>
     <Compile Include="Scripts\HeroModifierClass.cs" />
     <Compile Include="Scripts\ReadFromExcel.cs" />
+    <Compile Include="Scripts\SQL.cs" />
     <Compile Include="Scripts\StatueModifierClass.cs" />
     <Compile Include="Scripts\BaseBuildingClass.cs" />
     <Page Include="MainWindow.xaml">
@@ -164,6 +165,11 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="HP.accdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
